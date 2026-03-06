@@ -3,6 +3,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <h1 class="m-4">ADD DATA FORM</h1>
 <form action="{{ route('resource.store') }}" method="POST" >
+    @csrf
     <div class="container">
         <div class="row">
         <div class="col-md-6 mb-2">
